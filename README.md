@@ -323,4 +323,8 @@ Para um time de desenvolvimento, a melhor prática é combinar **Lighthouse**, *
 7. WebAIM. **WAVE Web Accessibility Evaluation Tools**. Disponível em: https://wave.webaim.org/
 8. WebAIM. **The WebAIM Million (2024)**. Disponível em: https://webaim.org/projects/million/
 9. NV Access. **NVDA**. Disponível em: https://www.nvaccess.org/
+<<<<<<< HEAD
 10. W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. Disponível em: https://www.w3.org/Translations/WCAG21-pt-BR/
+=======
+10. W3C. **Web Content Accessibility Guidelines (WCAG) 2.1**. Disponível em: https://www.w3.org/Translations/WCAG21-pt-BR/
+>>>>>>> main
