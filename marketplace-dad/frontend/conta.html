@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acesse ou crie sua conta no FigureForge">
+  <title>Conta - FigureForge</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+  <div class="top-bar" role="banner">Frete grátis acima de R$150 &bull; Figuras articuladas de colecionador &bull; Acessibilidade WCAG 2.1 AA</div>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="FigureForge - Página inicial"><span class="logo-text">FigureForge</span></a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-lista">
+          <li><a href="index.html">Catálogo</a></li>
+          <li><a href="criar.html">Criar com IA</a></li>
+          <li><a href="anunciar.html">Anunciar</a></li>
+          <li><a href="campanha.html">Acessibilidade</a></li>
+          <li><a href="conta.html" data-link-conta aria-current="page">Entrar</a></li>
+          <li data-item-admin hidden><a href="admin.html">Administração</a></li>
+          <li data-item-sair hidden><button type="button" class="nav-sair" data-botao-sair>Sair</button></li>
+          <li><a href="carrinho.html" class="carrinho-link" aria-label="Carrinho de compras">Carrinho (<span id="carrinho-contador">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal" role="main">
+    <div class="container">
+      <section aria-labelledby="titulo-conta">
+        <h1 id="titulo-conta">Sua conta</h1>
+        <p class="subtitulo">Entre para administrar seus anúncios ou crie uma conta gratuita para anunciar como pessoa física.</p>
+        <div class="conta-grid">
+          <section class="painel-formulario" aria-labelledby="titulo-entrar">
+            <h2 id="titulo-entrar">Entrar</h2>
+            <div id="mensagem-login" class="mensagem-formulario" role="alert" hidden></div>
+            <form id="form-login" class="form-padrao">
+              <div class="campo"><label for="login-email">E-mail</label><input id="login-email" name="email" type="email" autocomplete="email" required></div>
+              <div class="campo"><label for="login-senha">Senha</label><input id="login-senha" name="senha" type="password" autocomplete="current-password" required></div>
+              <button type="submit" class="btn-principal">Entrar</button>
+            </form>
+          </section>
+
+          <section class="painel-formulario" aria-labelledby="titulo-cadastro">
+            <h2 id="titulo-cadastro">Criar conta</h2>
+            <div id="mensagem-cadastro" class="mensagem-formulario" role="alert" hidden></div>
+            <form id="form-cadastro" class="form-padrao">
+              <div class="campo"><label for="cadastro-nome">Nome completo</label><input id="cadastro-nome" name="nome" type="text" autocomplete="name" minlength="2" maxlength="80" required></div>
+              <div class="campo"><label for="cadastro-email">E-mail</label><input id="cadastro-email" name="email" type="email" autocomplete="email" required></div>
+              <div class="campo"><label for="cadastro-senha">Senha</label><input id="cadastro-senha" name="senha" type="password" autocomplete="new-password" minlength="6" maxlength="128" aria-describedby="ajuda-senha" required><small id="ajuda-senha" class="campo-ajuda">Use pelo menos 6 caracteres.</small></div>
+              <button type="submit" class="btn-principal">Criar minha conta</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer role="contentinfo"><div class="container"><p><strong>FigureForge</strong> &mdash; Projeto DAD 2026 | Instituto J&F</p><p>Desenvolvido com foco em acessibilidade digital (WCAG 2.1 AA)</p></div></footer>
+  <script src="js/carrinho.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/acessibilidade.js"></script>
+  <script src="js/conta.js"></script>
+</body>
+</html>
