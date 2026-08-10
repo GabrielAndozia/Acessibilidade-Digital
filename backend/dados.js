@@ -8,7 +8,7 @@ const figuras = [
     preco: 89.90,
     categoria: "ficção científica",
     descricao: "Action figure de guerreiro intergaláctico com armadura futurista e espada de energia.",
-    imagem: "http://localhost:3001/img/icon1.png",
+    imagem: "http://localhost:3001/img/icon6.png",
     acessorios: ["espada de energia", "escudo magnético"],
     estoque: 12
   },
@@ -28,7 +28,7 @@ const figuras = [
     preco: 129.90,
     categoria: "ficção científica",
     descricao: "Robô gigante articulado com canhão de plasma e sistema de voo.",
-    imagem: "http://localhost:3001/img/icon3.png",
+    imagem: "http://localhost:3001/img/icon5.png",
     acessorios: ["canhão de plasma", "jetpack"],
     estoque: 5
   },
@@ -48,7 +48,7 @@ const figuras = [
     preco: 59.90,
     categoria: "esportes",
     descricao: "Piloto de corrida futurista com capacete holográfico e traje aerodinâmico.",
-    imagem: "http://localhost:3001/img/icon5.png",
+    imagem: "http://localhost:3001/img/icon1.png",
     acessorios: ["capacete holográfico", "volante magnético"],
     estoque: 20
   },
@@ -58,7 +58,7 @@ const figuras = [
     preco: 84.90,
     categoria: "história",
     descricao: "Guerreiro viking com machado de guerra e escudo de madeira.",
-    imagem: "http://localhost:3001/img/icon6.png",
+    imagem: "http://localhost:3001/img/icon3.png",
     acessorios: ["machado de guerra", "escudo de madeira", "elmo com chifres"],
     estoque: 10
   },
@@ -78,7 +78,7 @@ const figuras = [
     preco: 149.90,
     categoria: "fantasia",
     descricao: "Dragão articulado com asas móveis e sopro de fogo luminoso.",
-    imagem: "http://localhost:3001/img/icon8.png",
+    imagem: "http://localhost:3001/img/icon6.png",
     acessorios: ["base com pedra mística", "chama LED"],
     estoque: 3
   }
