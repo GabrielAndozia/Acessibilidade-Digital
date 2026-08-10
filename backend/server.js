@@ -54,6 +54,7 @@ const upload = multer({
 app.use(cors());
 app.use(express.json({ limit: "1mb" }));
 app.use("/uploads", express.static(diretorioUploads));
+app.use("/img", express.static(path.join(__dirname, "img")));
 
 function usuarioPublico(usuario) {
   return {
