@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marketplace de Action Figures com acessibilidade digital - DAD 2026">
+  <title>FigureForge - Marketplace de Action Figures</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Top bar -->
+  <div class="top-bar" role="banner">
+    Frete grátis acima de R$150 &bull; Figuras articuladas de colecionador &bull; Acessibilidade WCAG 2.1 AA
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="FigureForge - Página inicial">
+        <span class="logo-text">FigureForge</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-lista">
+          <li><a href="index.html" aria-current="page">Catálogo</a></li>
+          <li><a href="criar.html">Criar com IA</a></li>
+          <li><a href="anunciar.html">Anunciar</a></li>
+          <li><a href="campanha.html">Acessibilidade</a></li>
+          <li><a href="conta.html" data-link-conta>Entrar</a></li>
+          <li data-item-admin hidden><a href="admin.html">Administração</a></li>
+          <li data-item-sair hidden><button type="button" class="nav-sair" data-botao-sair>Sair</button></li>
+          <li>
+            <a href="carrinho.html" class="carrinho-link" aria-label="Carrinho de compras">
+              Carrinho (<span id="carrinho-contador">0</span>)
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main id="conteudo-principal" role="main">
+    <div class="container">
+      <section class="hero-loja" aria-labelledby="titulo-catalogo">
+        <div class="hero-conteudo">
+          <p class="rotulo-secao">Edição de colecionador</p>
+          <h1 id="titulo-catalogo">Figuras que contam <span>sua história.</span></h1>
+          <p>Encontre peças únicas para sua coleção ou transforme uma ideia em uma action figure criada com IA.</p>
+          <div class="hero-acoes">
+            <a href="#vitrine" class="btn-principal">Explorar catálogo</a>
+            <a href="criar.html" class="link-hero">Criar com IA <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <span class="hero-selo">NOVA<br>COLEÇÃO</span>
+          <div class="hero-embalagem">
+            <span class="hero-embalagem-titulo">FIGURE<br>FORGE</span>
+            <span class="hero-figura-cabeca"></span>
+            <span class="hero-figura-corpo"></span>
+            <span class="hero-figura-base"></span>
+          </div>
+          <span class="hero-detalhe">01 / 2026</span>
+        </div>
+      </section>
+
+      <section class="beneficios-loja" aria-label="Vantagens do FigureForge">
+        <article><span aria-hidden="true">✦</span><div><strong>Peças selecionadas</strong><p>Para quem coleciona de verdade.</p></div></article>
+        <article><span aria-hidden="true">◈</span><div><strong>Anuncie com facilidade</strong><p>Publique sua figure em poucos passos.</p></div></article>
+        <article><span aria-hidden="true">◎</span><div><strong>Criação com IA</strong><p>Transforme sua foto em colecionável.</p></div></article>
+      </section>
+
+      <section id="vitrine" class="vitrine-catalogo" aria-labelledby="titulo-vitrine">
+        <div class="vitrine-cabecalho">
+          <div>
+            <p class="rotulo-secao">Catálogo selecionado</p>
+            <h2 id="titulo-vitrine">Encontre a próxima peça da sua coleção</h2>
+          </div>
+          <a href="anunciar.html" class="link-ver-todos">Quero anunciar <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="atalhos-categoria" aria-label="Explorar por categoria">
+          <button type="button" data-categoria-atalho="ficção científica"><span aria-hidden="true">🚀</span> Ficção científica</button>
+          <button type="button" data-categoria-atalho="fantasia"><span aria-hidden="true">🐉</span> Fantasia</button>
+          <button type="button" data-categoria-atalho="história"><span aria-hidden="true">🏰</span> História</button>
+          <button type="button" data-categoria-atalho="esportes"><span aria-hidden="true">🏆</span> Esportes</button>
+        </div>
+
+        <div class="filtros" role="group" aria-labelledby="filtros-label">
+          <span id="filtros-label" class="filtros-titulo">Filtrar por:</span>
+          <button class="filtro-btn ativo" data-categoria="todas" aria-pressed="true">Todas</button>
+          <button class="filtro-btn" data-categoria="ficção científica" aria-pressed="false">Ficção Científica</button>
+          <button class="filtro-btn" data-categoria="fantasia" aria-pressed="false">Fantasia</button>
+          <button class="filtro-btn" data-categoria="história" aria-pressed="false">História</button>
+          <button class="filtro-btn" data-categoria="esportes" aria-pressed="false">Esportes</button>
+        </div>
+
+        <div id="grid-figuras" class="grid-figuras" aria-live="polite" aria-label="Lista de action figures"></div>
+        <div id="carregando" class="carregando" role="status" aria-live="polite"><p>Carregando catálogo...</p></div>
+        <div id="erro" class="erro" role="alert" hidden><p>Não foi possível carregar o catálogo. Verifique se o servidor está rodando na porta 3001.</p></div>
+      </section>
+    </div>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p><strong>FigureForge</strong> &mdash; Projeto DAD 2026 | Instituto J&F</p>
+      <p>Desenvolvido com foco em acessibilidade digital (WCAG 2.1 AA)</p>
+    </div>
+  </footer>
+
+  <script src="js/carrinho.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/acessibilidade.js"></script>
+  <script src="js/catalogo.js"></script>
+</body>
+</html>
