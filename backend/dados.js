@@ -8,7 +8,7 @@ const figuras = [
     preco: 89.90,
     categoria: "ficção científica",
     descricao: "Action figure de guerreiro intergaláctico com armadura futurista e espada de energia.",
-    imagem: "https://placehold.co/300x400/1a1a2e/eaeaea?text=Guerreiro+Estelar",
+    imagem: "http://localhost:3001/img/icon1.png",
     acessorios: ["espada de energia", "escudo magnético"],
     estoque: 12
   },
@@ -18,7 +18,7 @@ const figuras = [
     preco: 74.90,
     categoria: "fantasia",
     descricao: "Samurai misterioso com katana lendária e manto das sombras.",
-    imagem: "https://placehold.co/300x400/2d132c/eaeaea?text=Samurai+Sombras",
+    imagem: "http://localhost:3001/img/icon2.png",
     acessorios: ["katana", "manto das sombras", "shuriken"],
     estoque: 8
   },
@@ -28,7 +28,7 @@ const figuras = [
     preco: 129.90,
     categoria: "ficção científica",
     descricao: "Robô gigante articulado com canhão de plasma e sistema de voo.",
-    imagem: "https://placehold.co/300x400/0f3460/eaeaea?text=Robo+Tita+MK7",
+    imagem: "http://localhost:3001/img/icon3.png",
     acessorios: ["canhão de plasma", "jetpack"],
     estoque: 5
   },
@@ -38,7 +38,7 @@ const figuras = [
     preco: 69.90,
     categoria: "fantasia",
     descricao: "Elfa arqueira com arco encantado e flechas de cristal.",
-    imagem: "https://placehold.co/300x400/1b4332/eaeaea?text=Arqueira+Elfica",
+    imagem: "http://localhost:3001/img/icon4.png",
     acessorios: ["arco encantado", "aljava de cristal", "capa élfica"],
     estoque: 15
   },
@@ -48,7 +48,7 @@ const figuras = [
     preco: 59.90,
     categoria: "esportes",
     descricao: "Piloto de corrida futurista com capacete holográfico e traje aerodinâmico.",
-    imagem: "https://placehold.co/300x400/4a0e0e/eaeaea?text=Piloto+Velocidade",
+    imagem: "http://localhost:3001/img/icon5.png",
     acessorios: ["capacete holográfico", "volante magnético"],
     estoque: 20
   },
@@ -58,7 +58,7 @@ const figuras = [
     preco: 84.90,
     categoria: "história",
     descricao: "Guerreiro viking com machado de guerra e escudo de madeira.",
-    imagem: "https://placehold.co/300x400/3d0c02/eaeaea?text=Viking+Norte",
+    imagem: "http://localhost:3001/img/icon6.png",
     acessorios: ["machado de guerra", "escudo de madeira", "elmo com chifres"],
     estoque: 10
   },
@@ -68,7 +68,7 @@ const figuras = [
     preco: 94.90,
     categoria: "ficção científica",
     descricao: "Ninja cibernético com lâminas retráteis e camuflagem óptica.",
-    imagem: "https://placehold.co/300x400/16213e/eaeaea?text=Ninja+Cyber",
+    imagem: "http://localhost:3001/img/icon7.png",
     acessorios: ["lâminas retráteis", "dispositivo de camuflagem"],
     estoque: 7
   },
@@ -78,7 +78,7 @@ const figuras = [
     preco: 149.90,
     categoria: "fantasia",
     descricao: "Dragão articulado com asas móveis e sopro de fogo luminoso.",
-    imagem: "https://placehold.co/300x400/4a1942/eaeaea?text=Dragao+Mistico",
+    imagem: "http://localhost:3001/img/icon8.png",
     acessorios: ["base com pedra mística", "chama LED"],
     estoque: 3
   }
