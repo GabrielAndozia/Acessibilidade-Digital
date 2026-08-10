@@ -1,0 +1,16 @@
+# Dependencies and generated local state
+backend/node_modules/
+backend/uploads/
+backend/dados-marketplace.json
+
+# Secrets and local certificates
+backend/.env
+*.pem
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local server output
+npm-debug.log*
