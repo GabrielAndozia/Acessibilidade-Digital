@@ -18,7 +18,7 @@ const figuras = [
     preco: 74.90,
     categoria: "fantasia",
     descricao: "Samurai misterioso com katana lendária e manto das sombras.",
-    imagem: "http://localhost:3001/img/icon2.png",
+    imagem: "http://localhost:3001/img/icon7.png",
     acessorios: ["katana", "manto das sombras", "shuriken"],
     estoque: 8
   },
@@ -48,7 +48,7 @@ const figuras = [
     preco: 59.90,
     categoria: "esportes",
     descricao: "Piloto de corrida futurista com capacete holográfico e traje aerodinâmico.",
-    imagem: "http://localhost:3001/img/icon1.png",
+    imagem: "http://localhost:3001/img/icon8.png",
     acessorios: ["capacete holográfico", "volante magnético"],
     estoque: 20
   },
@@ -68,7 +68,7 @@ const figuras = [
     preco: 94.90,
     categoria: "ficção científica",
     descricao: "Ninja cibernético com lâminas retráteis e camuflagem óptica.",
-    imagem: "http://localhost:3001/img/icon7.png",
+    imagem: "http://localhost:3001/img/icon2.png",
     acessorios: ["lâminas retráteis", "dispositivo de camuflagem"],
     estoque: 7
   },
@@ -78,7 +78,7 @@ const figuras = [
     preco: 149.90,
     categoria: "fantasia",
     descricao: "Dragão articulado com asas móveis e sopro de fogo luminoso.",
-    imagem: "http://localhost:3001/img/icon6.png",
+    imagem: "http://localhost:3001/img/icon1.png",
     acessorios: ["base com pedra mística", "chama LED"],
     estoque: 3
   }
